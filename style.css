@@ -233,13 +233,39 @@ body {
 
 .main-section h2 {
     font-size: 50px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     text-align: left;
-    padding-left: 2em;
+    padding-left: 1.5em;
 }
 .main-section p {
-    font-size: 18px;
-    padding-left: 6.5em;
+    font-size: 21px;
+    padding-left: 4em;
     margin: 0 auto 30px auto;
     text-align: left;
+    padding-right: 40em;
+    line-height: 1.2em;
+
+}
+
+red {
+    color:#6a2424;
+}
+
+
+.contact-btn {
+    display: inline-block;
+    background: #a43131;
+    color: #ffffff;
+    font-size: 1.6rem;
+    padding: 25px 50px;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+    text-decoration: none;
+    margin-left: -39em;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+}
+
+.contact-btn:hover {
+    background: #9c4d4d;
 }
