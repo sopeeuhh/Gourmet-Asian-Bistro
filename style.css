@@ -1,4 +1,6 @@
 html, body {
+    margin: 0;
+    padding: 0;
     height: 100%;
 }
 
@@ -47,7 +49,7 @@ body {
 }
 
 .navbar ul li a:hover {
-    color: #ad8b8b;
+    color: #9c4d4d;
 }
 
 /*FOOTER*/
@@ -81,6 +83,7 @@ body {
     padding-bottom: 0.7em;
     text-transform: uppercase;
     font-weight: normal;
+    margin-top: 1.4em;
 
 }
 
@@ -111,7 +114,7 @@ body {
     flex: 1;
     padding: 60px 20px;
     text-align: center;
-    background: #ffffff;
+    background: #a43131;
 }
 
 .main-section h2 {
@@ -123,4 +126,93 @@ body {
     font-size: 18px;
     max-width: 700px;
     margin: 0 auto 30px auto;
+}
+
+.hero-banner {
+    position: relative;
+    height: 1000vh;
+    background: url("banner.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    background-size: 120%;
+    z-index:1;
+}
+
+.hero-banner::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom:0;
+    background: rgba(0,0,0,0.5);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 165px;
+
+}
+
+.hero-content p {
+    font-size: 1.6rem;
+    margin-bottom: 2px;
+
+}
+
+.order-btn {
+    display: inline-block;
+    background: #a43131;
+    color: #ffffff;
+    font-size: 1.6rem;
+    padding: 25px 50px;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+    margin-bottom: 290px;
+    margin-top: 4.5em;
+    text-decoration: none;
+}
+
+.order-btn:hover {
+    background: #9c4d4d;
+}
+
+.notice-banner {
+    position: relative;
+   height: 25px;
+   line-height: 25px;
+   background-color: #a43131;
+   color: #ffffff;
+   white-space: nowrap;
+   font-weight: bold;
+   font-size: 0.9rem;
+   z-index: 5;
+}
+
+.notice-content {
+    display: inline-block;
+    animation: scroll-left 15s linear infinite;
+    font-weight: normal;
+}
+
+.notice-content span {
+    padding-right: 50px;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
