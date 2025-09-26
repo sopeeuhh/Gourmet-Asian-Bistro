@@ -7,7 +7,7 @@
 body {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     background: #ffffff;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 .navbar {
@@ -15,13 +15,12 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #6a2424;
-    padding: 1.8rem 4rem;
+    padding: 1rem 4rem;
     color: #ffffff;
 }
 
-.navbar .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+.navbar img {
+    width: 3.5em;
 }
 
 .navbar ul {
