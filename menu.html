@@ -20,17 +20,47 @@
             </ul>
         </nav>
 
-        <!--MAIN MENU SECTION-->
-        <main class="menu-page">
-            <h1 class="menu-title">Our Menu</h1>
-        </main>
+        
+<!--MENU-->
+<main class="main-page">
+    <h1 class="menu-title">Our Menu</h1>
 
-        <section class="menu-section">
-            <h2>Appetizers</h2>
-            <ul>
-                <li><span class="item-name">Spring Rolls</span><span class="item-price"> $0.00</span>
+            <section class="menu-section">
+        <h2>Appetizers</h2>
+        <ul>
+            <li><span class="item-name">1. Egg Rolls (2pcs)</span>
+                <span class="item-price">$3.95</span>
+                <button class="add-btn" data-name="Egg Rolls" data-price="$3.95">Add</button>
+            </li>
+
+            <li><span class="item-name">2. Spring Rolls (2pcs)</span>
+                <span class="item-price">$3.95</span>
+                <button class="add-btn" data-name="Spring Rolls" data-price="$3.95">Add</button>
+            </li>
+
+            <li><span class="item-name">3. Crab Ragoon (6pcs)</span>
+                <span class="item-price">$5.95</span>
+                <button class="add-btn" data-name="Crab Rangoon" data-price="5.96">Add</button>
+            </li>
             </ul>
-        </section>
+</section>
+        
+
+    <div class="cart-container">
+        <h2>Your Order</h2>
+        <ul id="cart-items"></ul>
+        <p id="cart-total">Total: $0.00</p>
+        <button id="checkout-btn">Checkout</button>
+    </div>
+
+</main>
+
+
+
+
+
+
+
 
 <!--FOOTER-->
 <footer class="footer">
@@ -65,6 +95,7 @@
         © 2025 Gourmet Asian Bistro. All Rights Reserved.
     </p>
 </footer>
+
 
     </body>
 </html>
