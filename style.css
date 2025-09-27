@@ -2,6 +2,8 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    overflow-x: hidden;
+    background: #6a2424;
 }
 
 body {
@@ -268,4 +270,60 @@ red {
 
 .contact-btn:hover {
     background: #9c4d4d;
+}
+
+/*MENU*/
+
+.menu-page {
+    padding: 80px 20px;
+    background-color: #fef8f8;
+    min-height: 100vh;
+}
+
+.menu-title {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #6a2424;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.menu-section {
+    margin-bottom: 0px;
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0,0.1);
+}
+
+.menu-section h2 {
+    color: #9c4d4d;
+    border-bottom: 2px solid #e4bcbc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.menu-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-section li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted #ccc;
+}
+
+
+
+.menu-section .item-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.menu-section .item-price {
+    color: #6a2424;
 }
