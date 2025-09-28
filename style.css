@@ -450,7 +450,7 @@ red {
     text-align: right;
     color: #6a2424;
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .add-btn {
@@ -518,6 +518,12 @@ html {
 .item-actions {
     width: 70px;
     text-align: right;
+}
+
+.item-desc {
+    font-size:0.9em;
+    opacity: 50%;
+ 
 }
 
 
