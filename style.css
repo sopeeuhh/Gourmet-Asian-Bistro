@@ -526,6 +526,77 @@ html {
  
 }
 
+.multi-option-item {
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    gap: 10px;
+}
+
+.item-options {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.item-options .options {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.item-options .item-price {
+    font-weight: bold;
+    color: #5a1c1c;
+}
+
+.item-options .add-btn {
+    background-color: #a83232;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background 0.2 ease;
+}
+
+.item-options .add-btn:hover {
+    background-color: #7a2424;
+}
+
+.item-select {
+    padding: 5px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.item-select:focus {
+    outline: none;
+    border-color: #a83232;
+    box-shadow: 0 0 3px rgba(168, 50,50,0.5);
+}
+
+.add-btn {
+    background-color: #a83232;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+
+.add-btn:hover {
+    background-color: #712424;
+}
 
 
 

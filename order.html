@@ -92,8 +92,14 @@
          <li>
             <span class="item-name">8. Chicken or Steak Satay (w/ peanut sauce) (3pcs)</span>
             <span class="item-desc">choose chicken or steak | kabobs</span>
+            <div class="item-options">
+                <select class="item-select" data-name="Satay Flavor">
+                    <option value="Chicken">Chicken</option>
+                    <option value ="Steak">Steak</option>
+                </select>
             <span class="item-price">$9.95</span> 
             <button class="add-btn" data-name="Chicken or Steak Satay" data-price="9.95">Add</button>
+            </div>
         </li>
          <li>
             <span class="item-name">9. Edamame</span>
@@ -110,8 +116,14 @@
          <li>
             <span class="item-name">11. Gyoza (6pcs)</span>
             <span class="item-desc">choose pan fried or steamed | japanese chicken and pork dumplings</span>
+            <div class="item-options">
+                <select class="item-select" data-name="Fried or Steamed">
+                    <option value="Fried">Fried</option>
+                    <option value ="Steamed">Steamed</option>
+                </select>
             <span class="item-price">$6.95</span> 
             <button class="add-btn" data-name="Gyoza" data-price="6.95">Add</button>
+            </div>
         </li>
          <li>
             <span class="item-name">12. Rock Shrimp 🌶️</span>
@@ -122,8 +134,14 @@
          <li>
             <span class="item-name">13. Chicken or Vegetable Lettuce Wrap</span>
             <span class="item-desc">choose chicken or vegetable | served with lettuce as wraps</span>
+            <div class="item-options">
+                <select class="item-select" data-name="Satay Flavor">
+                    <option value="Chicken">Chicken</option>
+                    <option value ="Vegetable">Vegetable</option>
+                </select>
             <span class="item-price">$7.95</span> 
             <button class="add-btn" data-name="Chicken or Vegetable Lettuce Wrap" data-price="7.95">Add</button>
+            </div>
         </li>
          <li>
             <span class="item-name">14. Vietnamese Fried Spring Roll 🌶️ (2pcs)</span>
@@ -139,22 +157,138 @@
         </li>
          <li>
             <span class="item-name">16. Tempura Appetizer</span>
-            <span class="item-desc">choose shrimp, vegetable. or chicken</span>
+            <span class="item-desc">choose shrimp, vegetable, or chicken</span>
+            <div class="item-options">
+                <select class="item-select" data-name="Satay Flavor">
+                    <option value="Chicken">Chicken</option>
+                    <option value ="Shrimp">Shrimp</option>
+                    <option value="Vegetable">Vegetable</option>
+                </select>
             <span class="item-price">$7.95</span> 
             <button class="add-btn" data-name="Tempura Appetizer" data-price="7.95">Add</button>
+            </div>
         </li>
     </ul>
 </section>
 
 
-<section id="chef-specials" class="tab-content active menu-section">
-    <h2>Chef Specials</h2>
+<!--SOUP-->
+<section id="soup" class="tab-content active menu-section">
+    <h2>SOUP</h2>
 <ul>
-        <li>
-            <span class="item-name">1. Vegetable Spring Rolls (2pcs)</span>
-            <span class="item-price">$3.95</span> 
-            <button class="add-btn" data-name="Vegetable Spring Rolls" data-price="3.95">Add</button>
+    <li class="multi-option-item">
+        <span class="item-name">1. Wonton Soup</span>
+        <span class="item-desc">choose your size portion: small or large</span>
+        <div class="item-options">
+            <div class="option">
+            <span class="item-price">(S) $2.95</span> 
+            <button class="add-btn" data-name="Wonton Soup (Small)" data-price="2.95">Add</button>
+            </div>
+            <div class="option">
+                <span class="item-price">(L) $4.95</span>
+                <button class="add-btn" data-name="Wonton Soup (Large)" data-price="4.95">Add</button>
+            </div>
+            </div>
         </li>
+
+        <li class="multi-option-item">
+        <span class="item-name">2. Egg Drop Soup</span>
+        <span class="item-desc">choose your size portion: small or large</span>
+        <div class="item-options">
+            <div class="option">
+            <span class="item-price">(S) $2.95</span> 
+            <button class="add-btn" data-name="Egg Drop Soup (Small)" data-price="2.95">Add</button>
+            </div>
+            <div class="option">
+                <span class="item-price">(L) $4.95</span>
+                <button class="add-btn" data-name="Egg Drop Soup (Large)" data-price="4.95">Add</button>
+            </div>
+            </div>
+            </li>
+
+            <li class="multi-option-item">
+        <span class="item-name">3. Hot & Sour Soup 🌶️</span>
+        <span class="item-desc">choose your size portion: small or large</span>
+        <div class="item-options">
+            <div class="option">
+            <span class="item-price">(S) $2.95</span> 
+            <button class="add-btn" data-name="Hot & Sour (Small)" data-price="2.95">Add</button>
+            </div>
+            <div class="option">
+                <span class="item-price">(L) $4.95</span>
+                <button class="add-btn" data-name="Hot & Sour (Large)" data-price="4.95">Add</button>
+            </div>
+            </div>
+        </li>
+
+                   <li class="multi-option-item">
+        <span class="item-name">4. Miso Soup</span>
+        <span class="item-desc">choose your size portion: small or large</span>
+        <div class="item-options">
+            <div class="option">
+            <span class="item-price">(S) $2.95</span> 
+            <button class="add-btn" data-name="Miso Soup (Small)" data-price="2.95">Add</button>
+            </div>
+            <div class="option">
+                <span class="item-price">(L) $4.95</span>
+                <button class="add-btn" data-name="Miso Soup (Large)" data-price="4.95">Add</button>
+            </div>
+            </div>
+        </li>
+
+        <li>
+            <span class="item-name">5. Chicken & Corn Soup</span>
+            <span class="item-price">6.95</span> 
+            <button class="add-btn" data-name="Chicken & Corn Soup" data-price="6.95">Add</button>
+        </li>
+        <li class="multi-option-item">
+        <span class="item-name">6. Vegetable & Tofu Soup</span>
+        <span class="item-desc">choose your size portion: small or large</span>
+        <div class="item-options">
+            <div class="option">
+            <span class="item-price">(S) $2.95</span> 
+            <button class="add-btn" data-name="Vegetable & Tofu Soup (Small)" data-price="2.95">Add</button>
+            </div>
+            <div class="option">
+                <span class="item-price">(L) $5.95</span>
+                <button class="add-btn" data-name="Vegetable & Tofu Soup (Large)" data-price="5.95">Add</button>
+            </div>
+            </div>
+        </li>
+        <li>
+            <span class="item-name">7. Seafood Soup</span>
+            <span class="item-price">8.95</span> 
+            <button class="add-btn" data-name="Seafood Soup" data-price="8.95">Add</button>
+        </li>
+        <li>
+            <span class="item-name">8. Tom Yum Soup (Chicken or Shrimp)</span>
+            <span class="item-desc">choose chicken or shrimp | tomato basil lemongrass soup w/ mushroom colurtu and scallions</span>
+             <div class="item-options">
+                <select class="item-select" data-name="Soup Flavor">
+                    <option value="Chicken">Chicken</option>
+                    <option value ="Shrimp">Shrimp</option>
+                </select>
+            <span class="item-price">6.95</span> 
+            <button class="add-btn" data-name="Tom Yum Soup" data-price="6.95">Add</button>
+            </div>
+        </li>
+        <li>
+            <span class="item-name">9. Tom Ka Soup (Chicken or Shrimp)</span>
+            <span class="item-desc">choose chicken or shrimp | creamy lime, coconut based soup w/ cilantro</span>
+             <div class="item-options">
+                <select class="item-select" data-name="Soup Flavor">
+                    <option value="Chicken">Chicken</option>
+                    <option value ="Shrimp">Shrimp</option>
+                </select>
+            <span class="item-price">6.95</span> 
+            <button class="add-btn" data-name="Tom Ka Soup" data-price="6.95">Add</button>
+            </div>
+        </li>
+        
+
+  
+
+        
     </ul>
 </section>
 
